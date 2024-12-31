@@ -1,0 +1,94 @@
+body {
+  background: center url("https://img.freepik.com/premium-photo/circle-colorful-legos-with-white-frame-white-background_882186-43969.jpg?w=2000");
+  background-size: cover;
+  font-family: Georgia, sans-serif;
+  margin: 15% 20%;
+}
+
+main {
+  background: lightblue;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 10px 15px;
+  margin: auto;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 0 5px;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 10px 0;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+label {
+  display: block;
+  padding: 10px 0;
+}
+
+label[for="reason"] {
+  padding: 2px 0;
+  width: 114px;
+}
+
+label[for="preferred"] {
+  padding: 2px 0;
+}
+
+input {
+  padding: 2px;
+}
+
+input[type="email"] {
+  width: 200px;
+  min-width: 150px;
+}
+
+input[type="number"] {
+  width: 75px;
+}
+
+input[type="checkbox"] {
+    filter: hue-rotate(240deg);
+}
+
+input[type="radio"] {
+    filter: hue-rotate(240deg);
+}
+
+input[type="submit"] {
+  background-color: dodgerblue;
+  color: black;
+  font-size: 16px;
+  font-weight: regular;
+  padding: 8px 50px;
+}
+
+input[type="submit"]:active {
+  background-color: springgreen;
+}
+
+select {
+  padding: 2px;
+}
+
+textarea {
+  width: 300px;
+  min-width: 100px;
+  max-width: 600px;
+  height: 75px;
+  min-height: 25px;
+  max-height: 150px;
+}
