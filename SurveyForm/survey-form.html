@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <title>Lego Set Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <body>
+    <main>
+      <section>
+        <h1 id="title">
+          Lego Set Survey Form
+        </h1>
+        <p id="description">
+          This is a survey form to find out once and for all which lego set is the best!
+        </p>
+      </section>
+      <section>
+        <form id="survey-form">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label id="name-label" for="name">
+              Input your name: <input id="name" name="name" type="text" placeholder="Ex: John Smith" required />
+            </label>
+            <label id="email-label" for="email">
+              Input your email: <input id="email" name="email" type="email" placeholder="Ex: example@gmail.com" required />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Favorite Lego Set Selection</legend>
+            <label for="dropdown">
+              Favorite Lego Set: <select id="dropdown">
+                <option>(select lego)</option>
+                <option>Bonsai Tree</option>
+                <option>Tranqil Garden</option>
+                <option>The Great Wave</option>
+              </select>
+            </label>
+            <label id="number-label" for="number">
+              Rating: <input id="number" name="number" type="number" min=1 max=10 placeholder="Ex: (1-10)" required />
+            </label>
+            <label for="reason">Design <input type="checkbox" value="design" /></label>
+            <label for="reason">Creativeness <input type="checkbox" value="creativeness" /></label>
+            <label for="reason">Style <input type="checkbox" value="style" /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Favorite Building Block</legend>
+            <label for="preferred">
+              Lego <input id="preferred" name="preferred" type="radio" value="lego" checked />
+            </label>
+            <label for="preferred">
+              Mega <input id="preferred" name="preferred" type="radio" value="mega" />
+              </label>
+          </fieldset>
+          <label for="comments">
+          <textarea id="comments" placeholder="Type your comments..."></textarea>
+        </label>
+        <input id="submit" type="submit" name="submit" />
+        </main>
+      </form>
+    </section>
+  </body>
+</html>
